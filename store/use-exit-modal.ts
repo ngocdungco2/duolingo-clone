@@ -1,0 +1,13 @@
+import { create } from "zustand";
+//zustand: state managerment tool quản lý các hook và store
+type ExitModalState = {
+  isOpen: boolean;
+  open: () => void;
+  close: () => void;
+};
+
+export const useExitModal = create<ExitModalState>((set) => ({
+  isOpen: false,
+  open: () => set({ isOpen: true }),
+  close: () => set({ isOpen: false }),
+}));
