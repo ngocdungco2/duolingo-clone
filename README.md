@@ -84,7 +84,7 @@ Nơi người dùng có thể đổi điểm lấy lợi ích
 
 ## Công nghệ sử dụng
 
-- Frontend: (Cần bổ sung thông tin)
-- Backend: (Cần bổ sung thông tin)
-- Database: (Cần bổ sung thông tin)
-- Authentication: Clerk
+- Frontend: NextJS + Shadcn/UI
+- Backend: TypeScript
+- Database: PostgreSQL ( Neon Serverless Database )
+- Authentication: Clerk 
